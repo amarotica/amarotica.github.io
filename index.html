@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyko Design LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header, footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .logo {
+            max-width: 200px;
+            margin: 10px auto;
+        }
+        .content {
+            padding: 20px 0;
+        }
+        .services, .contact-form {
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            background: #e2e2e2;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="skykodesign.png" alt="Skyko Design Logo" class="logo">
+        <h1>Skyko Design LLC</h1>
+        <p>Innovative Solutions in Embedded Systems, IoT Infrastructure, Firmware Development, and Mechanical Design</p>
+    </header>
+    <div class="container">
+        <div class="content">
+            <section class="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li><strong>Embedded Systems Design:</strong> Expert schematic design, precise PCB layout, and comprehensive consulting for printed circuit board assembly</li>
+                    <li><strong>Rapid Prototyping and Development:</strong> Specializing in swiftly turning concepts into fully functional solutions in a matter of weeks</li>
+                    <li><strong>3D Printing and Mechanical Design:</strong> Utilizing in-house 3D printing to quickly refine and perfect mechanical designs</li>
+                    <li><strong>IoT Infrastructure Design:</strong> Tailored IoT solutions and strategic implementation</li>
+                    <li><strong>Firmware Development:</strong> Custom firmware engineering for diverse embedded applications</li>
+                    <li><strong>Specialization in Espressif's ESP32 SoCs:</strong> Advanced expertise in WiFi-enabled microcontroller applications</li>
+                    <li><strong>Low Power AVR MCUs:</strong> Specialized design and integration of low power AVR microcontrollers</li>
+                    <li><strong>Communications Buses:</strong> Efficient implementation and optimization of wired and wireless communication protocols</li>
+                    <li><strong>Sensor Integration:</strong> Seamless integration of various sensors into embedded systems</li>
+                </ul>
+            </section>
+            <section class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="https://formspree.io/f/your-form-id" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Skyko Design LLC</p>
+    </footer>
+</body>
+</html>
